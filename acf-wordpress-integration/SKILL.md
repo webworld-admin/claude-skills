@@ -13,9 +13,7 @@ description: >
 
 # ACF WordPress Integration Skill
 
-**Stack:** WordPress + ACF Pro · Polylang (multilingual) · Timber/Twig templating · HTML layouts by `<section>`
-
----
+**Stack:** WordPress + ACF Pro + Polylang + Timber/Twig. Assume layouts are split into semantic `<section>` blocks.
 
 ## acf-json
 
@@ -131,7 +129,7 @@ Always add Instructions for:
 {% if post.meta('show_banner') %}<div class="banner">…</div>{% endif %}
 ```
 
----
+**Rendering rule:** use `|raw` only for trusted fields that are explicitly meant to store HTML content.
 
 ## Pre-delivery Checklist
 
