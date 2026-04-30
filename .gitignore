@@ -1,0 +1,5 @@
+# IDE
+.idea/
+.vscode/
+.tmb/
+.DS_Store
